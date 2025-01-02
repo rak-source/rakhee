@@ -16,15 +16,37 @@ header {
   padding: 20px 10px;
 }
 
-header h1 {
-  margin: 0;
-  font-size: 2.5em;
+/* Profile Header */
+.profile-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-header .subtitle {
-  margin: 10px 0 0;
-  font-size: 1.2em;
-  font-style: italic;
+.profile-picture {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid white;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.linkedin-link {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.linkedin-logo {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
 }
 
 /* Main Content Styles */
@@ -72,30 +94,6 @@ a {
 
 a:hover {
   text-decoration: underline;
-}
-
-/* LinkedIn Icon */
-.linkedin-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-}
-
-.linkedin-link img {
-  width: 20px;
-  height: 20px;
-  vertical-align: middle;
-}
-
-/* Profile Image */
-.profile-picture {
-  display: block;
-  margin: 20px auto;
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  border: 2px solid #0056b3;
 }
 
 /* Article Links */
