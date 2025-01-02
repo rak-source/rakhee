@@ -5,6 +5,13 @@
   box-sizing: border-box;
 }
 
+/* Profile Header */
+.profile-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .profile-picture {
   width: 120px;
   height: 120px;
@@ -17,6 +24,11 @@
 .linkedin-link {
   display: inline-block;
   margin-left: 10px;
+}
+.linkedin-logo {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
 }
 
 body {
@@ -48,14 +60,6 @@ section {
 h2 {
   font-size: 28px;
   margin-bottom: 10px;
-}
-
-/* Image styling */
-img {
-  max-width: 100%; /* Ensures images don't overflow and scale down */
-  height: auto;    /* Maintains the aspect ratio of the images */
-  display: block;  /* Removes extra space below images */
-  margin: 20px 0;  /* Adds spacing above and below images */
 }
 
 /* Footer styling */
