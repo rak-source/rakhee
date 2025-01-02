@@ -44,6 +44,9 @@ body {
   color: #333333; /* Dark text for contrast */
   line-height: 1.6;
   padding: 20px;
+  display: flex; /* Enable Flexbox layout */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
 }
 
 /* Header styling */
