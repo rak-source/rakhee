@@ -1,2 +1,2 @@
-# rakhee-gupta.github.io
+# Rakhee
 Rakhee's github pages
