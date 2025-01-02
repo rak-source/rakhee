@@ -59,6 +59,7 @@ h1 {
 
 /* Section styling */
 section {
+  max-width: 800px;
   padding: 20px;
   margin-bottom: 40px;
   border-bottom: 1px solid #ddd; /* Light gray separator line */
