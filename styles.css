@@ -30,7 +30,15 @@
   height: 20px;
   vertical-align: middle;
 }
-
+.logo-link {
+  display: inline-block;
+  margin-left: 2px;
+}
+.logo {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
 body {
   font-family: Arial, sans-serif;
   background-color: #ffffff; /* Pure white background */
