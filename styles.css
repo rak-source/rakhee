@@ -46,6 +46,30 @@ body {
   vertical-align: left;
 }
 
+.company-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px; /* Adds space between items */
+}
+
+.company-logos a {
+  display: inline-block;
+  width: 150px; /* Adjust this value based on your needs */
+  height: 150px; /* Adjust this value based on your needs */
+  text-align: center;
+  overflow: hidden;
+}
+
+.company-logos img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
 header {
   margin-bottom: 5px;
 }
