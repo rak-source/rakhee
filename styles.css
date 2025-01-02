@@ -53,14 +53,17 @@ body {
   margin-top: 20px;
 }
 
-.company-logos a {
-  margin: 5px;
+.company-logos {
+  display: flex;
+  justify-content: space-around; /* or space-between */
+  max-height: 25vh; /* 50% of viewport height */
+  overflow: hidden; /* in case images are taller than container */
 }
 
 .company-logos img {
-  width: 120px;
-  height: 80px;
-  object-fit: contain;
+  height: 100%;
+  width: auto; /* maintains aspect ratio */
+  object-fit: cover; /* crop the image if it doesn't fit */
 }
 
 header {
