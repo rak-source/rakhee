@@ -36,6 +36,14 @@ h2 {
   margin-bottom: 10px;
 }
 
+/* Image styling */
+img {
+  max-width: 100%; /* Ensures images don't overflow and scale down */
+  height: auto;    /* Maintains the aspect ratio of the images */
+  display: block;  /* Removes extra space below images */
+  margin: 20px 0;  /* Adds spacing above and below images */
+}
+
 /* Footer styling */
 footer {
   text-align: center;
