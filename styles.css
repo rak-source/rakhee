@@ -1,17 +1,27 @@
-/* Reset default margins and padding */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #333333;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto; /* Center the content */
+  padding: 20px;
+}
+
 /* Profile Header */
 .profile-header {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
+
 .profile-picture {
   width: 120px;
   height: 120px;
@@ -21,37 +31,18 @@
   margin-bottom: 10px;
 }
 
-.linkedin-link {
+.linkedin-link, .logo-link {
   display: inline-block;
   margin-left: 10px;
 }
-.linkedin-logo {
+
+.linkedin-logo, .logo {
   width: 20px;
   height: 20px;
   vertical-align: middle;
-}
-.logo-link {
-  display: inline-block;
-}
-.logo {
-  width: 20px;
-  height: 20px;
-  vertical-align: middle;
-}
-body {
-  font-family: Arial, sans-serif;
-  background-color: #ffffff; /* Pure white background */
-  color: #333333; /* Dark text for contrast */
-  line-height: 1.6;
-  padding: 20px;
-  display: flex; /* Enable Flexbox layout */
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
 }
 
-/* Header styling */
 header {
-  text-align: center;
   margin-bottom: 40px;
 }
 
@@ -62,11 +53,9 @@ h1 {
 
 /* Section styling */
 section {
-  max-width: 600px;
-  padding: 20px;
-  margin: 0 auto; 
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
   margin-bottom: 40px;
-  border-bottom: 1px solid #ddd; /* Light gray separator line */
 }
 
 h2 {
@@ -77,36 +66,36 @@ h2 {
 /* Footer styling */
 footer {
   text-align: center;
-  padding: 10px;
-  border-top: 1px solid #ddd; /* Light gray separator line */
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
   margin-top: 40px;
 }
 
-/* Links styling (if you have any) */
+/* Links styling */
 a {
   text-decoration: none;
-  color: #007BFF; /* Blue for links */
+  color: #007BFF;
 }
 
 a:hover {
   text-decoration: underline;
 }
 
-/* Add responsiveness for smaller screens */
-@media (max-width: 768px) {
+/* Responsive adjustments */
+@media (max-width: 600px) {
   body {
     padding: 15px;
   }
-
+  
   header h1 {
     font-size: 28px;
   }
-
+  
   section {
-    padding: 15px;
+    padding: 15px 0;
   }
-
+  
   footer {
-    padding: 15px;
+    padding: 15px 0;
   }
 }
